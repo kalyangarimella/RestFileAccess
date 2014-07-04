@@ -21,8 +21,8 @@ import org.ho.yaml.YamlDecoder;
 @Path("fileaccess")
 public class AccessFileService {
 
-    private final String filePath = "e:\\data\\output-text.yaml";
-
+    private final String filePath = "d:\\output-text.yaml";
+    
     /**
      * Creates a new instance of FileaccessResource
      */
@@ -41,7 +41,7 @@ public class AccessFileService {
     public String getFileContent() {
         
         try {
-
+            System.out.println("file: "+new File(".").getAbsoluteFile());
             // file creation by passing file name
             File file = new File(filePath);
 
@@ -65,7 +65,7 @@ public class AccessFileService {
 
         } catch (FileNotFoundException | EOFException exception) {
             System.out.println(exception.getMessage());
-        }
+        } 
 
         return null;
         
