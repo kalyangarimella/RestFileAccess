@@ -1,0 +1,8 @@
+--- !com.data.model.Inventory
+date: 2/2/2018
+day: Friday
+items: 
+  - Laptops
+  - Chairs
+  - Desktops
+name: GYDDER
