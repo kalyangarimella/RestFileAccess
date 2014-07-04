@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ File: ApplicationConfig.java
+ July 03 2014     Kalyan Kasyap   Extends the behavior of Application and adding Rest Resource Classes
  */
 
 package com.data.service;
@@ -9,10 +8,7 @@ package com.data.service;
 import java.util.Set;
 import javax.ws.rs.core.Application;
 
-/**
- *
- * @author kalyan
- */
+
 @javax.ws.rs.ApplicationPath("webresources")
 public class ApplicationConfig extends Application {
 
@@ -31,6 +27,7 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(com.data.service.AccessFileService.class);
-    }
+        
+    } // end of method
     
-}
+} // end of class
