@@ -19,3 +19,7 @@ JYaml is a Java library for working with the Yaml file format (http://jyaml.sour
 jyaml documentation can be accesed from http://jyaml.sourceforge.net/
 
 output-text.yaml file is created in D: drive while executing the project
+
+project is tested in Glassfish server version 4
+
+jersey framework / container is provided by default in Glassfish server
