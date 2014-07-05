@@ -14,7 +14,8 @@ Steps to execute the project:
 
 Note: 
 
+JYaml is a Java library for working with the Yaml file format.
+
 jyaml documentation can be accesed from http://jyaml.sourceforge.net/
 
 output-text.yaml file is created in D: drive while executing the project
-
