@@ -41,7 +41,7 @@ public class AccessFileService {
     public String getFileContent() {
         
         try {
-            System.out.println("file: "+new File(".").getAbsoluteFile());
+            
             // file creation by passing file name
             File file = new File(filePath);
 
