@@ -14,7 +14,7 @@ Steps to execute the project:
 
 Note: 
 
-JYaml is a Java library for working with the Yaml file format.
+JYaml is a Java library for working with the Yaml file format (http://jyaml.sourceforge.net/javadoc/index.html)
 
 jyaml documentation can be accesed from http://jyaml.sourceforge.net/
 
